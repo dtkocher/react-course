@@ -13,7 +13,9 @@ class App extends Component {
           <h2>Welcome to React with Redux</h2>
         </header>
         <div className="Todo-App">
-          <TodoForm />
+          <TodoForm
+            changeCurrent={this.props.changeCurrent}
+            currentTodo={this.props.currentTodo}/>
           <TodoList todos={this.props.todos}/>
         </div>
       </div>
