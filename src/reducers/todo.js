@@ -4,7 +4,7 @@ const initState = {
     {id: 2, name: 'Load state through the store', isComplete: true},
     {id: 3, name: 'Handle state changes with redux', isComplete: false}
   ],
-  currentTodo: 'temp'
+  currentTodo: ''
 }
 
 export default (state = initState, action) => {
