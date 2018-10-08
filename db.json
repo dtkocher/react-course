@@ -1,0 +1,8 @@
+{
+  "todos": [
+    {"id": 1, "name": "Configuration", "isComplete": true },
+    {"id": 2, "name": "create a store", "isComplete": true},
+    {"id": 3, "name": "Load state through the store", "isComplete": true},
+    {"id": 4, "name": "Handle state changes with redux", "isComplete": false}
+  ]
+}
